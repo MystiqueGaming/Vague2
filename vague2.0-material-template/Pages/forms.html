@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <title>Forms</title>
+        
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\Copy\Kevin\Vague2\vague2.0-material-template\v2-md.css" />
+    <script src="C:\Copy\Kevin\Vague2\vague2.0-material-template\v2-md_js.js"></script>
+</head>
+<body>
+    <div class="form-div">
+    <form class="vmd-form" name="vmd-form" onsubmit="return validateForm()">
+        <div class="form-pairs">
+            <input type="text" class="vmd-form-input" placeholder="Name" id="name-input" name="name"><br>
+            <span id="name-error-msg" class="error-msg"></span>
+        </div>
+        <div class="form-pairs">
+            <input type="email" class="vmd-form-input" placeholder="Email" id="email-input" name="email"><br>
+            <span id="email-error-msg" class="error-msg"></span>
+        </div>
+        <div class="form-pairs">
+            <input type="password" class="vmd-form-input" placeholder="Password" id="pass-input" name="password"><br>
+            <span id="pass-error-msg" class="error-msg"></span>
+        </div>
+        <div class="form-pairs">
+            <input type="password" class="vmd-form-input" placeholder="Confirm Password" id="cpass-input" name="c-password"><br>
+            <span id="cpass-error-msg" class="error-msg"></span>
+        </div>
+        <div class="form-actions">
+            <button class="button button-green" name="submit" formnovalidate>Login</button>
+            <button class="button button-dark_purple">Don't Have An Account Yet?</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
