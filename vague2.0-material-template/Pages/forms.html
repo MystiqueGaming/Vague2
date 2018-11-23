@@ -14,29 +14,30 @@
     <script src="C:\Copy\Kevin\Vague2\vague2.0-material-template\v2-md_js.js"></script>
 </head>
 <body>
-    <div class="form-div">
     <form class="vmd-form" name="vmd-form" onsubmit="return validateForm()">
         <div class="form-pairs">
-            <input type="text" class="vmd-form-input" placeholder="Name" id="name-input" name="name"><br>
-            <span id="name-error-msg" class="error-msg"></span>
+            <input type="text" class="vmd-form-input name-input" placeholder="Name"><br>
+            <span class="error-msg name-error-msg"></span>
         </div>
         <div class="form-pairs">
-            <input type="email" class="vmd-form-input" placeholder="Email" id="email-input" name="email"><br>
-            <span id="email-error-msg" class="error-msg"></span>
+            <input type="email" class="vmd-form-input email-input" placeholder="Email"><br>
+            <span class="error-msg email-error-msg"></span>
         </div>
         <div class="form-pairs">
-            <input type="password" class="vmd-form-input" placeholder="Password" id="pass-input" name="password"><br>
-            <span id="pass-error-msg" class="error-msg"></span>
+            <input type="date" class="vmd-date-input date-input">
         </div>
         <div class="form-pairs">
-            <input type="password" class="vmd-form-input" placeholder="Confirm Password" id="cpass-input" name="c-password"><br>
-            <span id="cpass-error-msg" class="error-msg"></span>
+            <input type="password" class="vmd-form-input pass-input" placeholder="Password"><br>
+            <span class="error-msg pass-error-msg"></span>
+        </div>
+        <div class="form-pairs">
+            <input type="password" class="vmd-form-input cpass-input" placeholder="Confirm Password"><br>
+            <span class="error-msg cpass-error-msg"></span>
         </div>
         <div class="form-actions">
             <button class="button button-green" name="submit" formnovalidate>Login</button>
             <button class="button button-dark_purple">Don't Have An Account Yet?</button>
         </div>
     </form>
-    </div>
 </body>
 </html>
