@@ -45,6 +45,18 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vmd_table_cell {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vmd_table_head {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /* Styling for all buttons */
 .button {
@@ -1275,7 +1287,7 @@ input:focus + .toggle-black {
 }
 
 .full-img-card {
-    background-image: url("pexels-photo-952670.jpeg");
+    background-image: url("pexels-photo-952671.jpeg");
     background-color: #bdbdbd;
     color: #fafafa;
 }
@@ -1333,5 +1345,19 @@ input:focus + .toggle-black {
 .error-msg {
     color: #d32f2f;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Tables */
+.vmd_table, .vmd_table_head, .vmd_table_cell {
+  border: 1px solid #9e9e9e;
+  border-collapse: collapse;
+}
+
+.vmd_table_head, .vmd_table_cell {
+    padding: 10px;
+}
+
+.vmd_table_cell {
+    text-align: center;
 }
 

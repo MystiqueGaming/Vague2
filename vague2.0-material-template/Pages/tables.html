@@ -17,15 +17,11 @@
 
  -->
 
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
-    <title>Forms</title>
         
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -34,29 +30,40 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="C:\Copy\Kevin\Vague2\vague2.0-material-template\CSS\v2-md.css" />
     <script src="C:\Copy\Kevin\Vague2\vague2.0-material-template\JavaScript\v2-md_js.js"></script>
+	<title>Tables</title>
 </head>
 <body>
-    <form class="vmd-form" name="vmd-form" onsubmit="return validateForm()">
-        <div class="form-pairs">
-            <input type="text" class="vmd-form-input name-input" placeholder="Name"><br>
-            <span class="error-msg name-error-msg"></span>
-        </div>
-        <div class="form-pairs">
-            <input type="email" class="vmd-form-input email-input" placeholder="Email"><br>
-            <span class="error-msg email-error-msg"></span>
-        </div>
-        <div class="form-pairs">
-            <input type="password" class="vmd-form-input pass-input" placeholder="Password"><br>
-            <span class="error-msg pass-error-msg"></span>
-        </div>
-        <div class="form-pairs">
-            <input type="password" class="vmd-form-input cpass-input" placeholder="Confirm Password"><br>
-            <span class="error-msg cpass-error-msg"></span>
-        </div>
-        <div class="form-actions">
-            <button class="button button-green" name="submit" formnovalidate>Login</button>
-            <button class="button button-dark_purple">Don't Have An Account Yet?</button>
-        </div>
-    </form>
+	<table style="width:100%" class="vmd_table">
+  		<tr class="vmd_table_row">
+    		<th class="vmd_table_head">Firstname</th>
+    		<th class="vmd_table_head">Lastname</th> 
+    		<th class="vmd_table_head">Age</th>
+  		</tr>
+  		<tr class="vmd_table_row">
+    		<td class="vmd_table_cell">Jill</td>
+    		<td class="vmd_table_cell">Smith</td> 
+    		<td class="vmd_table_cell">20</td>
+  		</tr>
+  		<tr class="vmd_table_row">
+    		<td class="vmd_table_cell">Eve</td>
+    		<td class="vmd_table_cell">Jackson</td> 
+    		<td class="vmd_table_cell">20</td>
+  		</tr>
+  		<tr class="vmd_table_row">
+    		<td class="vmd_table_cell">Kevin</td>
+    		<td class="vmd_table_cell">David</td> 
+    		<td class="vmd_table_cell">15</td>
+  		</tr>
+  		<tr class="vmd_table_row">
+    		<td class="vmd_table_cell">Jason</td>
+    		<td class="vmd_table_cell">David</td> 
+    		<td class="vmd_table_cell">5</td>
+  		</tr>
+  		<tr class="vmd_table_row">
+    		<td class="vmd_table_cell">Steve</td>
+    		<td class="vmd_table_cell">Jobless</td> 
+    		<td class="vmd_table_cell">20</td>
+  		</tr>
+	</table>
 </body>
 </html>
